@@ -18,7 +18,7 @@ async function getWeather(input) {
   const today = new Date();
 
   let response = await fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${input},uk&APPID=62d9f7279fdb0e1b7b37a6dfead3cd52`,
+    `https://api.openweathermap.org/data/2.5/weather?q=${input},uk&APPID=62d9f7279fdb0e1b7b37a6dfead3cd52`,
     { mode: "cors" }
   );
 
