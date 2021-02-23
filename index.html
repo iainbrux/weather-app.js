@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Weather App</title>
-	</head>
-	<body>
-		<h1>Weather App</h1>
-		<div class="display"></div>
-	</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./app.bundle.js" defer></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="display-weather">
+        <header></header>
+        <div class="day"></div>
+        <div class="weather"></div>
+        <div class="temperature"></div>
+      </section>
+      <section class="user-input">
+        <label for="input-weather" class="input-weather">Check the weather for...</label>
+        <input type="text" name="location" id="location" />
+        <div id="submit">Submit</div>
+      </section>
+    </div>
+  </body>
+  <link rel="stylesheet" href="style.css" />
 </html>
