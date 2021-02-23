@@ -10,26 +10,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/app.js":
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _buttonsConfig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./buttonsConfig */ \"./src/buttonsConfig.js\");\n/* harmony import */ var _getWeather__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./getWeather */ \"./src/getWeather.js\");\n\n\n\n(0,_buttonsConfig__WEBPACK_IMPORTED_MODULE_0__.renderButtons)();\n(0,_getWeather__WEBPACK_IMPORTED_MODULE_1__.getWeather)('Chorley');\n\n//# sourceURL=webpack:///./src/app.js?");
-
-/***/ }),
-
-/***/ "./src/buttonsConfig.js":
-/*!******************************!*\
-  !*** ./src/buttonsConfig.js ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderButtons\": () => (/* binding */ renderButtons)\n/* harmony export */ });\n/* harmony import */ var _getWeather__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getWeather */ \"./src/getWeather.js\");\n\n\nfunction renderButtons() {\n  const submit = document.querySelector(\"#submit\");\n  const location = document.querySelector(\"#location\");\n\n  submit.addEventListener(\"click\", () => (0,_getWeather__WEBPACK_IMPORTED_MODULE_0__.getWeather)(location.value));\n}\n\n\n\n\n//# sourceURL=webpack:///./src/buttonsConfig.js?");
-
-/***/ }),
-
 /***/ "./src/getWeather.js":
 /*!***************************!*\
   !*** ./src/getWeather.js ***!
@@ -109,7 +89,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/app.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/getWeather.js");
 /******/ 	
 /******/ })()
 ;
